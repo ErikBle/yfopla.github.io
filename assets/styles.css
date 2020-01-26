@@ -16,4 +16,8 @@ body {
   justify-content: center;
 }
 
-
+/* Margins to keep the text centered on the page*/
+.centeredtext {
+    margin-top: 70px;
+    margin-left: 20px;
+}
