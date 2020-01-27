@@ -8,3 +8,5 @@ Centered the button, Added rows/colums to make it look nicer.
 
 Added margins to the loresum text. 
 
+Added responsive for Mobile/Tablets.
+

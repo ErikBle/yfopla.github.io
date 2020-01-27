@@ -8,6 +8,8 @@ body {
 
 }
 
+
+
 /* CSS to center the 'Project' button */
 .btn-group {
   margin: auto;
@@ -21,3 +23,56 @@ body {
     margin-top: 70px;
     margin-left: 20px;
 }
+
+/* Settings for Ipad */
+@media screen and (max-width: 768px) {
+
+    .row {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;	
+          float: none;
+          padding: 60px
+    }
+    
+    .centeredtext {
+      margin-top: 5px;
+    }
+    
+    }
+    
+    /* Settings for phones*/
+    @media screen and (max-width: 767px) {
+    
+    .row {
+            width: 100%;
+            padding: 10px;
+            margin-top: 40px;
+            margin-right: 1px;
+        }
+        
+    .centeredtext {
+            margin-top: 5px
+          }
+          
+          
+        }
+        
+    /* Settings for IPad Pro*/
+    @media screen and (max-width: 1024px) {
+       .row {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;	
+          float: none;
+          padding: 60px;
+    }
+    
+    .centeredtext {
+        margin-top: 10px
+      }
+    
+    
+    }
