@@ -10,3 +10,5 @@ Added margins to the loresum text.
 
 Added responsive for Mobile/Tablets.
 
+Added border to my contact info. 
+
