@@ -1,85 +1,165 @@
-header {
-    font-size: xx-large;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body color only */
+body{ 
+    background-color:#607d8b;
+}
+
+
+.header  {
+    padding: 15px;
+    padding-left: 40px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    background-position: inherit;
+}
+
+/* For the text and background "Erik Blecker"*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: whitesmoke;
+    background-color: teal;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: -15px;
+    margin-top: -15px
+}
+
+/* nav bar */
+.nav {
+    float: right;
+    font-size: 30px;
+}
+
+/* wrapper for the buttons*/
+.wrapper {
+    background-color: white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-left: 15px;
+    width: 100%;
+    
+}
+
+/* Image for the index.html */
+.imaged {
+    float: left;
+    margin-right: 10px;
+    
+}
+
+/* Header text in the container */
+h2 {
+    color:teal;
+    font-size: 40px;
     text-align: center;
+    margin-bottom: 20px;
+   
 }
 
-body {
-    background-color: gainsboro
-
-}
-
-
-
-/* CSS to center the 'Project' button */
-.btn-group {
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-/* Margins to keep the text centered on the page*/
-.centeredtext {
-    margin-top: 70px;
-    margin-left: 20px;
-}
-
-#contact-info {
-  border-style: solid;
-  border-width: 2px;
-  width: 125%;
+/* Next 5 for the Portfolio page, getting text in the right spot*/
+.Word {
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    padding-left: 47px;
+    padding-right: 47px;
 
 }
 
-/* Settings for Ipad */
-@media screen and (max-width: 768px) {
+.RPG {
+    position: absolute;
+    right: 349px;
+    bottom: 20px;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    padding-left: 52px;
+    padding-right: 52px;
+}
 
-    .row {
-          display: block;
-          position: absolute;
-          right: 0;
-          top: 0;	
-          float: none;
-          padding: 60px
+.Trivia {
+    position: absolute;
+    left: 16px;
+    bottom: 20px;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.InfoWid {
+    position: absolute;
+    right: 349px;
+    bottom: 20px;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    padding-left: 47px;
+    padding-right: 48px;
+}
+
+.RPS {
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    padding-left: 19px;
+    padding-right: 19px;
+
+}
+
+/* Footer only */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 10px solid teal;
+  }
+ 
+  /* For images on the Portfolio page*/
+  .imgd {
+      margin-bottom: 10px;
+      position: relative;
+
+ }
+
+/* To make it look nice on mobile*/
+ @media screen and (max-width: 576px) {
+
+    .wrapper {
+        width:80%;
     }
     
-    .centeredtext {
-      margin-top: 5px;
+    .nav {
+        padding-top: 10px;
     }
     
+    .RPG {
+        right: 108px
     }
-    
-    /* Settings for phones*/
-    @media screen and (max-width: 767px) {
-    
-    .row {
-            width: 100%;
-            padding: 10px;
-            margin-top: 40px;
-            margin-right: 1px;
-        }
-        
-    .centeredtext {
-            margin-top: 5px
-          }
-          
-          
-        }
-        
-    /* Settings for IPad Pro*/
-    @media screen and (max-width: 1024px) {
-       .row {
-          display: block;
-          position: absolute;
-          right: 0;
-          top: 0;	
-          float: none;
-          padding: 60px;
-    }
-    
-    .centeredtext {
-        margin-top: 10px
-      }
-    
-    
-    }
+     .InfoWid {
+         right: 108px
+     }
+  
+}
+
