@@ -10,5 +10,6 @@ Added margins to the loresum text.
 
 Added responsive for Mobile/Tablets.
 
+Added comments for easier readability.
 
 
